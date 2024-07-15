@@ -43,10 +43,10 @@
             this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.textBoxPhone = new System.Windows.Forms.TextBox();
             this.textBoxSalary = new System.Windows.Forms.TextBox();
-            this.textBoxManager = new System.Windows.Forms.TextBox();
             this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.comboBoxJob = new System.Windows.Forms.ComboBox();
             this.comboBoxDept = new System.Windows.Forms.ComboBox();
+            this.comboBoxManager = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // labelFirstName
@@ -175,13 +175,6 @@
             this.textBoxSalary.Size = new System.Drawing.Size(100, 22);
             this.textBoxSalary.TabIndex = 15;
             // 
-            // textBoxManager
-            // 
-            this.textBoxManager.Location = new System.Drawing.Point(439, 126);
-            this.textBoxManager.Name = "textBoxManager";
-            this.textBoxManager.Size = new System.Drawing.Size(100, 22);
-            this.textBoxManager.TabIndex = 17;
-            // 
             // dateTimePicker
             // 
             this.dateTimePicker.Location = new System.Drawing.Point(39, 328);
@@ -205,15 +198,23 @@
             this.comboBoxDept.Size = new System.Drawing.Size(233, 24);
             this.comboBoxDept.TabIndex = 21;
             // 
+            // comboBoxManager
+            // 
+            this.comboBoxManager.FormattingEnabled = true;
+            this.comboBoxManager.Location = new System.Drawing.Point(439, 123);
+            this.comboBoxManager.Name = "comboBoxManager";
+            this.comboBoxManager.Size = new System.Drawing.Size(233, 24);
+            this.comboBoxManager.TabIndex = 22;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.comboBoxManager);
             this.Controls.Add(this.comboBoxDept);
             this.Controls.Add(this.comboBoxJob);
             this.Controls.Add(this.dateTimePicker);
-            this.Controls.Add(this.textBoxManager);
             this.Controls.Add(this.textBoxSalary);
             this.Controls.Add(this.textBoxPhone);
             this.Controls.Add(this.textBoxEmail);
@@ -253,9 +254,9 @@
         private System.Windows.Forms.TextBox textBoxEmail;
         private System.Windows.Forms.TextBox textBoxPhone;
         private System.Windows.Forms.TextBox textBoxSalary;
-        private System.Windows.Forms.TextBox textBoxManager;
         private System.Windows.Forms.DateTimePicker dateTimePicker;
         private System.Windows.Forms.ComboBox comboBoxJob;
         private System.Windows.Forms.ComboBox comboBoxDept;
+        private System.Windows.Forms.ComboBox comboBoxManager;
     }
 }

@@ -67,7 +67,7 @@
             // 
             // butInsertar
             // 
-            this.butInsertar.Location = new System.Drawing.Point(335, 350);
+            this.butInsertar.Location = new System.Drawing.Point(191, 350);
             this.butInsertar.Name = "butInsertar";
             this.butInsertar.Size = new System.Drawing.Size(75, 23);
             this.butInsertar.TabIndex = 3;
@@ -77,7 +77,7 @@
             // 
             // butSelect
             // 
-            this.butSelect.Location = new System.Drawing.Point(449, 350);
+            this.butSelect.Location = new System.Drawing.Point(515, 350);
             this.butSelect.Name = "butSelect";
             this.butSelect.Size = new System.Drawing.Size(75, 23);
             this.butSelect.TabIndex = 4;
